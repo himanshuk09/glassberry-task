@@ -65,7 +65,11 @@ const AboutUs = () => {
         </div>
 
         <div className="lg:w-1/2 lg:mt-5 relative flex justify-center items-center">
-          <Carousel images={images} />
+          <img
+            src={histroyImg}
+            alt="Image 1"
+            className="rounded-lg shadow-lg"
+          />
         </div>
       </div>
     </div>
