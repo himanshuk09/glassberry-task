@@ -2,7 +2,7 @@ import React from "react";
 
 const SlideTwo = () => {
   return (
-    <div className="bg-[url('./images/iga-swiatek-leadimg.jpg')] bg-cover bg-right  min-h-screen flex items-center justify-left lg:pl-36 pl-6">
+    <div className="bg-[url('./images/iga-swiatek-leadimg.jpg')] bg-cover bg-center  min-h-screen flex items-center justify-left lg:pl-36 pl-6">
       <div className="text-left text-white px-4 w-full sm:w-[80%] md:w-[70%] lg:w-[60%]">
         <h1 className="text-2xl sm:text-3xl lg:text-5xl font-mono font-bold mb-6">
           Champions Evolve.

@@ -8,7 +8,10 @@ const Services = () => {
           Our Services
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="p-6 bg-white shadow-lg rounded-lg transform transition duration-300 hover:scale-105">
+          <div
+            className="p-6 bg-white shadow-lg rounded-lg transform transition duration-300 hover:scale-105"
+            data-aos="fade-up"
+          >
             <h3 className="text-2xl font-semibold mb-4 text-gray-700">
               Experience
             </h3>
@@ -23,7 +26,10 @@ const Services = () => {
             </ul>
           </div>
 
-          <div className="p-6 bg-white shadow-lg rounded-lg transform transition duration-300 hover:scale-105">
+          <div
+            className="p-6 bg-white shadow-lg rounded-lg transform transition duration-300 hover:scale-105"
+            data-aos="fade-up"
+          >
             <h3 className="text-2xl font-semibold mb-4 text-gray-700">
               Insight
             </h3>
@@ -36,7 +42,10 @@ const Services = () => {
             </ul>
           </div>
 
-          <div className="p-6 bg-white shadow-lg rounded-lg transform transition duration-300 hover:scale-105">
+          <div
+            className="p-6 bg-white shadow-lg rounded-lg transform transition duration-300 hover:scale-105"
+            data-aos="fade-up"
+          >
             <h3 className="text-2xl font-semibold mb-4 text-gray-700">
               Innovate
             </h3>
@@ -47,7 +56,10 @@ const Services = () => {
             </ul>
           </div>
 
-          <div className="p-6 bg-white shadow-lg rounded-lg transform transition duration-300 hover:scale-105">
+          <div
+            className="p-6 bg-white shadow-lg rounded-lg transform transition duration-300 hover:scale-105"
+            data-aos="fade-up"
+          >
             <h3 className="text-2xl font-semibold mb-4 text-gray-700">
               Accelerate
             </h3>
@@ -60,7 +72,10 @@ const Services = () => {
             </ul>
           </div>
 
-          <div className="p-6 bg-white shadow-lg rounded-lg transform transition duration-300 hover:scale-105">
+          <div
+            className="p-6 bg-white shadow-lg rounded-lg transform transition duration-300 hover:scale-105"
+            data-aos="fade-up"
+          >
             <h3 className="text-2xl font-semibold mb-4 text-gray-700">
               Assure
             </h3>

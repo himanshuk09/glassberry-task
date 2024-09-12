@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-transparent fixed w-[100%] z-20">
+    <header className="bg-transparent fixed w-[100%] z-20" data-aos="fade-down">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex-shrink-0">
@@ -49,7 +49,7 @@ const Header = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden bg-gray-900 text-white">
+        <div className="md:hidden bg-gray-900 text-white" data-aos="fade-left">
           <nav className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {["Home", "Services", "About", "Contact"].map((item) => (
               <Link

@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-gray-100 py-8 px-10">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-          <div>
+          <div data-aos="fade-up">
             <h5 className="font-bold text-lg mb-4">Company</h5>
             <ul>
               {[
@@ -26,7 +26,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          <div data-aos="fade-up">
             <h5 className="font-bold text-lg mb-4">Subsidiaries</h5>
             <ul>
               {[
@@ -44,7 +44,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          <div data-aos="fade-up">
             <h5 className="font-bold text-lg mb-4">Programs</h5>
             <ul>
               {[
@@ -62,7 +62,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          <div data-aos="fade-up">
             <h5 className="font-bold text-lg mb-4">Support</h5>
             <ul>
               {[
@@ -83,7 +83,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          <div data-aos="fade-up">
             <h5 className="font-bold text-lg mb-4">Connect with us</h5>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-700 hover:text-gray-900">

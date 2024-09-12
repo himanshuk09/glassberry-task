@@ -13,7 +13,7 @@ const AboutUs = () => {
   return (
     <div className="min-h-screen dark:bg-slate-800 bg-gray-50 flex flex-col justify-center items-center py-12">
       <div className="max-w-7xl w-full shadow-lg rounded-lg p-8 flex flex-col lg:flex-row">
-        <div className="lg:w-1/2 pr-6">
+        <div className="lg:w-1/2 pr-6" data-aos="fade-down-right">
           <h1 className="text-4xl text-white font-bold mb-4">About Us</h1>
           <p className="text-gray-200 mb-6">
             Infosys is a global leader in next-generation digital services and
@@ -64,7 +64,10 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className="lg:w-1/2 lg:mt-5 relative flex justify-center items-center">
+        <div
+          className="lg:w-1/2 lg:mt-5 relative flex justify-center items-center"
+          data-aos="fade-down-left"
+        >
           <img
             src={histroyImg}
             alt="Image 1"

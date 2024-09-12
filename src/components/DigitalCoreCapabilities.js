@@ -4,8 +4,7 @@ import but from "../images/but.png";
 const DigitalCoreCapabilities = () => {
   return (
     <div className="bg-yellow-600 min-h-screen flex flex-col lg:flex-row items-center justify-center p-6 lg:p-10 space-y-8 lg:space-y-0 lg:space-x-8">
-      {/* Left Text Section */}
-      <div className="text-left text-white px-4 lg:w-1/2">
+      <div className="text-left text-white px-4 lg:w-1/2" data-aos="fade-right">
         <h1 className="text-3xl lg:text-5xl font-bold mb-6 font-mono">
           Digital Core Capabilities
         </h1>
@@ -17,7 +16,6 @@ const DigitalCoreCapabilities = () => {
           <div className="absolute inset-0 bg-black -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></div>
         </button>
 
-        {/* Flexbox for Links */}
         <div className="mt-8 flex flex-col lg:flex-row lg:space-x-8 space-y-6 lg:space-y-0">
           <div className="lg:w-[50%]">
             <h3 className="text-lg lg:text-xl font-bold pb-5">
@@ -38,8 +36,7 @@ const DigitalCoreCapabilities = () => {
         </div>
       </div>
 
-      {/* Right Image Section */}
-      <div className="lg:w-1/2 flex justify-center">
+      <div className="lg:w-1/2 flex justify-center" data-aos="fade-left">
         <img
           src={but}
           alt="butterfly-img"
