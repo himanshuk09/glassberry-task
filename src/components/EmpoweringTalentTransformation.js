@@ -7,6 +7,8 @@ const EmpoweringTalentTransformation = () => {
       <div
         className="text-left text-white w-full lg:w-[50%] px-4"
         data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
       >
         <h1 className="text-3xl lg:text-5xl font-bold mb-6 font-mono">
           Empowering Talent Transformation
@@ -42,7 +44,8 @@ const EmpoweringTalentTransformation = () => {
 
       <div
         className="w-full lg:w-[50%] flex justify-center"
-        data-aos="fade-left"
+        data-aos="fade-up"
+        data-aos-duration="2000"
       >
         <img
           src={xyz}

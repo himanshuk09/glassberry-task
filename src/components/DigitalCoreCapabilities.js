@@ -4,7 +4,12 @@ import but from "../images/but.png";
 const DigitalCoreCapabilities = () => {
   return (
     <div className="bg-yellow-600 min-h-screen flex flex-col lg:flex-row items-center justify-center p-6 lg:p-10 space-y-8 lg:space-y-0 lg:space-x-8">
-      <div className="text-left text-white px-4 lg:w-1/2" data-aos="fade-right">
+      <div
+        className="text-left text-white px-4 lg:w-1/2"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <h1 className="text-3xl lg:text-5xl font-bold mb-6 font-mono">
           Digital Core Capabilities
         </h1>
@@ -36,7 +41,11 @@ const DigitalCoreCapabilities = () => {
         </div>
       </div>
 
-      <div className="lg:w-1/2 flex justify-center" data-aos="fade-left">
+      <div
+        className="lg:w-1/2 flex justify-center"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <img
           src={but}
           alt="butterfly-img"

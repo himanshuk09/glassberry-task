@@ -3,7 +3,10 @@ import React from "react";
 const SlideThree = () => {
   return (
     <div className="bg-[url('./images/slidethree.jpg')] bg-cover bg-right min-h-screen flex items-center justify-left lg:pl-36 pl-6">
-      <div className="text-left text-white px-4 w-full sm:w-[80%] md:w-[70%] lg:w-[60%]">
+      <div
+        className="text-left text-white px-4 w-full sm:w-[80%] md:w-[70%] lg:w-[60%]"
+        data-aos="zoom-out"
+      >
         <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-6 font-mono">
           Cloud Survey Report 2024.
         </h1>

@@ -4,7 +4,11 @@ import abc from "../images/digital-operating-models-lead-mob.png";
 const DigitalOperatingModel = () => {
   return (
     <div className="bg-blue-800 min-h-screen flex flex-col lg:flex-row items-center justify-between p-6 lg:p-10 space-y-8 lg:space-y-0">
-      <div className="lg:w-1/2 flex justify-center" data-aos="fade-right">
+      <div
+        className="lg:w-1/2 flex justify-center"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <img
           src={abc}
           className="w-full max-w-xs lg:max-w-lg object-contain relative lg:left-[-20px]"
@@ -14,7 +18,9 @@ const DigitalOperatingModel = () => {
 
       <div
         className="text-white lg:w-1/2 flex flex-col justify-center py-6 lg:py-52 lg:pr-10"
-        data-aos="fade-left"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
       >
         <h1 className="text-3xl lg:text-5xl font-bold mb-6 font-mono">
           Digital Operating Model
